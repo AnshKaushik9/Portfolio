@@ -1,6 +1,6 @@
 # 🚀 Ansh Kaushik — Portfolio Website
 
-Clean, minimal portfolio website with project showcase. GitHub Pages pe host karna super easy hai!
+Clean, minimal portfolio website with project showcase.
 
 ---
 
@@ -9,67 +9,59 @@ Clean, minimal portfolio website with project showcase. GitHub Pages pe host kar
 ```
 portfolio/
 ├── index.html       ← Main website
-├── projects.js      ← Sirf yahi edit karo naye project add karne ke liye!
-└── README.md        ← Ye file
+├── projects.js      ←Just edit this to add new projects!
+└── README.md        ← Current file
 ```
 
 ---
 
-## ➕ Naya Project Kaise Add Karein
+## ➕ How to Add a New Project
 
-Sirf `projects.js` kholo aur ek naya object add karo:
+Only open `projects.js` and add a new object:
 
 ```js
 {
   id: 3,                          // next number
   title: "Project Name",
   emoji: "🚀",
-  shortDesc: "Ek line mein kya hai.",
+  shortDesc: "In one line that what's in the project.",
   techStack: ["React", "Node.js"],
-  longDesc: "Poori detail yahan likho.",
+  longDesc: "Write complete details here",
   features: [
     "Feature 1",
     "Feature 2",
   ],
   githubLink: "https://github.com/AnshKaushik9/your-repo",
-  status: "Completed",            // ya "In Progress"
+  status: "Completed", or "In Progress"
 },
 ```
-
-Bas! Website automatically update ho jayegi.
+The website will automatically update!!
 
 ---
 
-## 🌐 GitHub Pages Pe Host Karna
+## 🌐 Host on GitHub Pages
+ 
+### Step 1 — Create a repo
+Go to GitHub → New Repository
+Name it: username.github.io (exactly like this — your username + .github.io)
+Keep it Public ✅
+Click Create Repository
 
-### Step 1 — Repo banao
-1. GitHub pe jao → **New Repository**
-2. Naam do: `AnshKaushik9.github.io` (exactly aisa — apna username + `.github.io`)
-3. Public rakho ✅
-4. Create Repository
+### Step 2 — Upload files
+Open the repo → Add file → Upload files
+Upload both index.html and projects.js
+Commit changes
 
-### Step 2 — Files upload karo
-1. Repo mein jao → **Add file → Upload files**
-2. `index.html` aur `projects.js` dono upload karo
-3. Commit changes
-
-### Step 3 — GitHub Pages enable karo
-1. Repo → **Settings** → Left sidebar mein **Pages**
-2. Source: **Deploy from a branch**
-3. Branch: `main` → Folder: `/ (root)` → **Save**
+### Step 3 — Enable GitHub Pages
+Go to Settings → In the left sidebar click Pages
+Source: Deploy from a branch
+Branch: main → Folder: / (root) → Save
 
 ### Step 4 — Live!
-Kuch minutes baad teri website live hogi at:
+
+After a few minutes, your website will be live at:
 ```
-https://AnshKaushik9.github.io
+https://username.github.io
 ```
 
 ---
-
-## ✏️ Future Updates
-
-Jab bhi naya project banao:
-1. `projects.js` kholo
-2. Naya object add karo
-3. GitHub pe file update karo (upload → commit)
-4. Done! 🎉
