@@ -9,32 +9,31 @@ Clean, Minimal Portfolio Website with Project Showcase.
 ## 📁 Files
 
 portfolio/
-├── index.html    ← Main website
-├── projects.js   ← Just edit this to add new projects!
-└── README.md     ← Current file
+├── index.html       ← Main website
+├── projects.js      ←Just edit this to add new projects!
+└── README.md        ← Current file
 
 ---
 
 ## ➕ How to Add a New Project
-
-Only open `projects.js` and add a new object:
-
+Only open projects.js and add a new object:
+js
 {
-  id: 3,
+  id: 3,                          // next number
   title: "Project Name",
   emoji: "🚀",
   shortDesc: "In one line that what's in the project.",
   techStack: ["React", "Node.js"],
-  longDesc: "Write complete details here.",
+  longDesc: "Write complete details here",
   features: [
     "Feature 1",
     "Feature 2",
   ],
   githubLink: "https://github.com/AnshKaushik9/your-repo",
-  status: "Completed",  // or "In Progress"
+  status: "Completed", or "In Progress"
 },
 
-The website will automatically update!
+The website will automatically update!!
 
 ---
 
@@ -56,7 +55,8 @@ Repo → Add file → Upload files
 Upload index.html and projects.js → Commit changes
 
 Step 3 — Enable GitHub Pages
-Settings → Pages → Source: Deploy from a branch
+Go to Settings → In the left sidebar click Pages
+Source: Deploy from a branch
 Branch: main → Folder: / (root) → Save
 
 Step 4 — Live!
@@ -71,3 +71,5 @@ Whenever you build a new project:
 2. Click the pencil (edit) icon
 3. Add a new object
 4. Commit → Done! 🎉
+
+---
